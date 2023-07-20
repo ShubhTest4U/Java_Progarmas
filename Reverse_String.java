@@ -1,4 +1,4 @@
-package Java_programs;
+package JavaLearning;
 
 public class Reverse_String {
 
