@@ -8,7 +8,7 @@ public class arrayList {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 		ArrayList<String> a = new ArrayList<String>();
 		a.add("Shubh");
 		a.add("Ravi");
@@ -16,22 +16,21 @@ public class arrayList {
 		a.add("Baheti");
 		a.add("Rahul");
 		//System.out.println(a.get(2));
-		
-		for(int i=0; i<a.size(); i++)
-		{
-			System.out.println(a.get(i));
+
+		for (String element : a) {
+			System.out.println(element);
 		}
-		
+
 		System.out.println(" ********** Enhanced loop **********");
-		
+
 		for(String val : a)
 		{
 			System.out.println(val);
 		}
 		System.out.println("Find value in arraylist: "+a.contains("Shubh"));
-		
+
 		//Convert list into arraylist to find data
-		
+
 		String[] name = {"Raj", "Syam", "Mehul", "Dinesh"};
 		List<String> nameArrayList = Arrays.asList(name);
 		System.out.println(nameArrayList.contains("TEE"));

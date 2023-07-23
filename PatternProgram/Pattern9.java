@@ -1,15 +1,15 @@
 package JavaLearning.PatternProgram;
 
 public class Pattern9 {
-	
-	public static void main(String[] args) 
+
+	public static void main(String[] args)
 	{
 //		1
 //		10
 //		101
 //		1010
 //		10101
-		
+
 //		for(int r=1; r<=5; r++)
 //		{
 //			for(int c=1; c<=r; c++)
@@ -25,9 +25,13 @@ public class Pattern9 {
 //			}
 //			System.out.println();
 //		}
-		
- 
-		
+
+//		10101
+//		1010
+//		101
+//		10
+//		1
+
 		for(int r=5; r>=1; r--)
 		{
 			for(int c=1; c<=r; c++)
@@ -42,11 +46,11 @@ public class Pattern9 {
 				}
 			}
 			System.out.println();
-			
+
 		}
-		
-		
-		
+
+
+
 	}
 
 }
